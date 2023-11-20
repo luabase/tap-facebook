@@ -1105,7 +1105,7 @@ class CreativeStream(FacebookStream):
         Property("source_instagram_media_id", IntegerType),
         Property("status", StringType),
         Property("template_url", StringType),
-        Property("thumbnail_id", IntegerType),
+        Property("thumbnail_id", StringType),
         Property("thumbnail_url", StringType),
         Property("title", StringType),
         Property("url_tags", StringType),
