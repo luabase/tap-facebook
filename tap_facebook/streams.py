@@ -947,7 +947,7 @@ class CampaignStream(FacebookStream):
         Property("promoted_object_application_type", StringType),
         Property("ad_strategy_group_id", IntegerType),
         Property("ad_strategy_id", IntegerType),
-        Property("lifetime_budget", IntegerType),
+        Property("lifetime_budget", StringType),
         Property("last_budget_toggling_time", StringType),
         Property("daily_budget", IntegerType),
         Property("special_ad_category_country", ArrayType),
