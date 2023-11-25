@@ -8,7 +8,6 @@ from singer_sdk import Tap
 from singer_sdk import typing as th  # JSON schema typing helpers
 
 from tap_facebook.streams import (
-    AdAccountsStream,
     AdImages,
     AdLabelsStream,
     AdsetsStream,
@@ -28,7 +27,6 @@ STREAM_TYPES = [
     CampaignStream,
     CreativeStream,
     AdLabelsStream,
-    AdAccountsStream,
     CustomConversions,
     CustomAudiences,
     AdImages,
